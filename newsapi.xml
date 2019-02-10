@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite">
+
+    <test name="News API Test" enabled="true">
+        <classes>
+            <class name="com.indusos.test.testscripts.NewsAPITest"/>
+        </classes>
+    </test>
+
+</suite>
+

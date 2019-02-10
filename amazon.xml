@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Suite">
+
+    <listeners>
+        <listener class-name="com.indusos.test.browserSetup.WebDriverListener"/>
+    </listeners>
+
+    <test name="Amazon - Add to Cart" enabled="true">
+        <parameter name="OS_Browser" value="Chrome"/>
+        <parameter name="URL" value="https://www.amazon.in/"/>
+        <classes>
+            <class name="com.indusos.test.testscripts.AmazonTest"/>
+        </classes>
+    </test>
+
+</suite>
+
