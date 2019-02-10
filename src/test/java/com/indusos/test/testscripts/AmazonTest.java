@@ -29,9 +29,9 @@ public class AmazonTest {
                 .click_SignIn_Link();
 
         login_page.wait_For_SignIn_PageLoad()
-                .type_Email_Or_PhoneNumber("8779371967")
+                .type_Email_Or_PhoneNumber("USERNAME")
                 .click_Continue_Button()
-                .type_Password("Amazon1234")
+                .type_Password("PASSWORD")
                 .click_Login_Button();
 
         home_page.wait_For_HomePage()
